@@ -1,0 +1,69 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+
+- story: late for class path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: why_late
+  - action: utter_apology
+  - action: utter_excuse
+  - intent: forgive_late
+  - action: utter_gratitude
+
+- story: late for class path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: why_late
+  - action: utter_apology
+  - action: utter_excuse
+  - intent: blame_late
+  - action: utter_plead
+  - intent: forgive_late
+  - action: utter_gratitude
+
+- story: late for class path 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: why_late
+  - action: utter_apology
+  - action: utter_excuse
+  - intent: blame_late
+  - action: utter_plead
+  - intent: deny
+  - action: utter_give_up
+
