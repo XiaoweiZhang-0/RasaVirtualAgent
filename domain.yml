@@ -13,6 +13,7 @@ intents:
 - why_late
 - forgive_late
 - blame_late
+
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -41,3 +42,7 @@ responses:
   - text: I don't care, do whatever you like
   utter_apology:
   - text: I'm sorry
+
+# actions:
+#   - action_hello_world
+#   - action_print_intent

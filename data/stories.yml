@@ -66,4 +66,3 @@ stories:
   - action: utter_plead
   - intent: deny
   - action: utter_give_up
-
