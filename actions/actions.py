@@ -36,3 +36,14 @@ from rasa_sdk.executor import CollectingDispatcher
 #         # dispatcher.utter_message(text='Your intent is '+tracker.latest_message['intent'].get('name'))
 
 #         return [tracker.latest_message['intent'].get('name')] 
+
+# class ActionSetSlot(Action):
+#     def name(self) -> Text:
+#         return "action_set_slot"
+#     def run(self, dispatcher: CollectingDispatcher,
+#             tracker: Tracker,
+#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+#         # dispatcher.utter_message(text='Your intent is '+tracker.latest_message['intent'].get('name'))
+
+#         return [tracker.latest_message['intent'].get('name')] 

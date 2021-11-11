@@ -18,7 +18,6 @@ nlu:
     - gi
 - intent: goodbye
   examples: |
-    - good afternoon
     - cu
     - good by
     - cee you later
@@ -87,16 +86,21 @@ nlu:
 - intent: why_late
   examples: |
     - why are you late for school?
-    - you are late
     - what makes you late?
-- intent: forgive_late
+    - tell me exactly why you late
+    - tell me what happened or I will call your parents
+    - you have to tell me what happened
+    - what is going on?
+    - what happened?
+- intent: forgive
   examples: |
     - ok, don't be late next time
     - alright, I will forgive you this time
     - I will forgive you
     - show up early next time
     - try to show up earily next time
-- intent: blame_late
+    - I will let it go
+- intent: blame
   examples: |
     - that is not an excuse
     - I don't want to hear your excuse
@@ -107,3 +111,23 @@ nlu:
     - you should have shown up earlier
     - I will not forgive you for being late
     - your lateness is unforgivable
+    - you are late for school!
+    - I need talk to your parents
+    - That is enough!
+
+- intent: ask_catch_up_class
+  examples: |
+    - Make sure to catch up with class
+    - catch up what you missed
+
+- intent: concern_for_wellbeing
+  examples: |
+    - Are you OK?
+    - are you alright?
+    - how's it going?
+
+- intent: doubt
+  examples: |
+    - you are lying
+    - I don't believe you
+    - you are not being honest
