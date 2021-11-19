@@ -33,7 +33,7 @@ responses:
   utter_happy:
   - text: Great, carry on!
   utter_goodbye:
-  - text: Bye
+  - text: Goodbye!
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
   utter_excuse:
