@@ -33,31 +33,35 @@ responses:
   utter_happy:
   - text: Great, carry on!
   utter_goodbye:
-  - text: Bye
+  - text: Goodbye!
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
   utter_excuse:
-  - text: I didn't catch the last bus to school
-  - text: My mom didn't wake me up this morning
+  # - text: I didn't catch the last bus to school
+  # - text: My mom didn't wake me up this morning
+  - text: I'm sorry, I woke up too late these days
   utter_gratitude:
   - text: Thank you!
-  - text: Thanks for your kindness!
+  # - text: Thanks for your kindness!
   utter_plead:
-  - text: Please, forgive me for this one time
-  - text: Please, I promise I will not do that again
+  # - text: Please, forgive me for this one time
+  # - text: Please, I promise I will not do that again
+  - text: I'm sorry, I woke up too late these days
   utter_give_up:
   - text: OK, I will not argue that
   - text: I don't care, do whatever you like
   utter_apology:
   - text: I'm sorry
   utter_why_ask:
-  - text: "What's the matter?"
+  - text: "I'm alright. What's the matter?"
   utter_affirm:
   - text: "Yes"
   utter_promise:
   - text: "I will"
   utter_do_not_care:
   - text: "I don't care"
+  utter_reassure:
+  - text: "You gonna believe me"
   utter_truth:
   - text: "I don't want to come to class because I did not do my homework"
 # actions:

@@ -92,6 +92,7 @@ nlu:
     - you have to tell me what happened
     - what is going on?
     - what happened?
+    - Why are you keeping showing up late for school, Jason?
 - intent: forgive
   examples: |
     - ok, don't be late next time

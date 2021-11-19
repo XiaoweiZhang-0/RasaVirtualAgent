@@ -97,8 +97,7 @@ stories:
     intent: why_late
   - action: utter_excuse
   - user: |
-       Alright, just make sure you catch up with the class.
-       OK?
+       Alright, just make sure you catch up with the class.OK?
     intent: ask_catch_up_class
   - action: utter_promise
 
@@ -109,10 +108,7 @@ stories:
     intent: why_late
   - action: utter_excuse
   - user: |
-       I know you are lying.
-    intent: doubt
-  - user: |
-       Tell me exactly what happened or I will call your parents
+       I know you are lying. Tell me exactly what happened or I will call your parents
     intent: why_late
   - action: utter_truth
 
@@ -123,19 +119,15 @@ stories:
     intent: why_late
   - action: utter_excuse
   - user: |
-        I know you are not being honest.
+        I know you are not being honest.But I will let it go for now.
     intent: doubt
-  - user: |
-       But I will let it go for now.
-    intent: forgive
-  - action: utter_gratitude
+  - action: utter_reassure
 
 - story: Sample story path 4
   steps:
   - user: |
       Are you alright? Jason
     intent: concern_for_wellbeing
-  - action: utter_affirm
   - action: utter_why_ask
   - user: |
         You are late for school. What is going on?
@@ -147,7 +139,6 @@ stories:
   - user: |
       Are you alright? Jason
     intent: concern_for_wellbeing
-  - action: utter_affirm
   - action: utter_why_ask
   - user: |
         Don't act like you are not aware. You are late for school!
@@ -160,7 +151,6 @@ stories:
   - user: |
       Are you alright? Jason
     intent: concern_for_wellbeing
-  - action: utter_affirm
   - action: utter_why_ask
   - user: |
          Nothing. See you tomorrow!
@@ -170,42 +160,22 @@ stories:
 - story: Sample story path 7
   steps:
   - user: |
-      Jason, you've been late for class three times.
-    intent: blame
-  - user: |
-         That's enough!
-    intent: blame 
-  - user: |
-        I need to talk to your parents.
+      Jason, you've been late for class three times.That's enough! I need to talk to your parents
     intent: blame
   - action: utter_plead
   - user: |
-        OK, I can forgive you for this time.
-    intent: forgive
-  - action: utter_gratitude
-  - user: |
-        But tell me what happened?
+        OK, I can forgive you for this time. But tell me what happened?
     intent: why_late
   - action: utter_excuse
 
 - story: Sample story path 8
   steps:
   - user: |
-      Jason, you've been late for class three times.
-    intent: blame
-  - user: |
-         That's enough!
-    intent: blame 
-  - user: |
-        I need to talk to your parents.
+      Jason, you've been late for class three times.That's enough! I need to talk to your parents
     intent: blame
   - action: utter_plead
   - user: |
-         No, your lateness is unacceptable.
-    intent: blame
-  - action: utter_gratitude
-  - user: |
-         I have to talk to your parents about it.
+         No, your lateness is unacceptable.I have to talk to your parents about it.
     intent: blame
   - action: utter_do_not_care
 
@@ -213,16 +183,10 @@ stories:
 - story: Sample story path 9
   steps:
   - user: |
-      Jason, you've been late for class three times.
-    intent: blame
-  - user: |
-         That's enough!
-    intent: blame 
-  - user: |
-        I need to talk to your parents.
+      Jason, you've been late for class three times.That's enough! I need to talk to your parents 
     intent: blame
   - action: utter_plead
   - user: |
-         I will make my decision based on your performance next time
+         Fine. I will make my decision based on your performance next time
     intent: forgive
   - action: utter_gratitude
