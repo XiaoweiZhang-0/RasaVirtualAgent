@@ -38,7 +38,6 @@ stories:
 - story: Q1/R2
   steps:
   - intent: concern_for_wellbeing
-  - action: utter_affirm
   - action: utter_why_ask
   - checkpoint: check_question_two_two
 
@@ -57,7 +56,6 @@ stories:
 - story: Q2.1/R2
   steps:
   - checkpoint: check_question_two_one
-  - intent: doubt
   - intent: why_late
   - action: utter_truth
 
@@ -65,8 +63,7 @@ stories:
   steps:
   - checkpoint: check_question_two_one
   - intent: doubt
-  - intent: forgive
-  - action: utter_gratitude
+  - action: utter_reassure
 
 - story: Q2.2/R1
   steps:
@@ -89,8 +86,6 @@ stories:
 - story: Q2.3/R1
   steps:
   - checkpoint: check_question_two_three
-  - intent: forgive
-  - action: utter_gratitude
   - intent: why_late
   - action: utter_excuse
 

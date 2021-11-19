@@ -19,7 +19,8 @@ Instruction to run:
 
 
 Problems: 
-1.Response consists two or more intents
+
+1. Response consists two or more intents
 Possible solution:
     parse sentence by sentence within one response
     if for intent1 == intent2:
