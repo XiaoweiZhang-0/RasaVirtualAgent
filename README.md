@@ -14,9 +14,10 @@ Python: 3.8.11
 
 Instruction to run:
 ```
-1.execute rasaOSserver.py and wait till the server is up
-
-2.execute Devs/rasaAPI.py
+python rasaOSserver.py
+```
+```
+python Devs/rasaAPI.py
 
 ```
 
