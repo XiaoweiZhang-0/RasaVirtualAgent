@@ -4,9 +4,9 @@
 ## Instruction to run
 ```
 Software version:
-
+```
 ***the newest version of rasa seems to have bugs, please use the version I specified here instead**
-
+```
 rasa: 2.8.6
 
 Python: 3.8.11
